@@ -1,0 +1,7 @@
+version: '3.8'
+services:
+  yyw-auto-clean:
+    container_name: yyw-auto-clean
+    image: registry.cn-hangzhou.aliyuncs.com/goodmangll/yyw-auto-clean:1.0.0
+    volumes:
+      - ./config:/user/src/app/config
