@@ -35,7 +35,7 @@ services:
   yyw-auto-clean:
     restart: always
     container_name: yyw-auto-clean
-    image: registry.cn-hangzhou.aliyuncs.com/goodmangll/yyw-auto-clean:1.0.0
+    image: registry.cn-hangzhou.aliyuncs.com/goodmangll/yyw-auto-clean:stable
     volumes:
       # 挂载配置文件
       - ./config:/user/src/app/config
